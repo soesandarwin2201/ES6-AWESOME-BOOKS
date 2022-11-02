@@ -5,23 +5,23 @@ const listLink = document.getElementById('List-link');
 const addFromLink = document.getElementById('add-link');
 const contactLink = document.getElementById('contact-link');
 
-const  navbar1 = () => {
+const navbar1 = () => {
   list.style.display = 'block';
   addForm.style.display = 'none';
   contact.style.display = 'none';
-}
+};
 
-const  navbar2 = () => {
+const navbar2 = () => {
   list.style.display = 'none';
   addForm.style.display = 'block';
   contact.style.display = 'none';
-}
+};
 
-const  navbar3 = () => {
+const navbar3 = () => {
   list.style.display = 'none';
   addForm.style.display = 'none';
   contact.style.display = 'block';
-}
+};
 
 export {
   list, listLink, addForm, addFromLink, contact, contactLink, navbar1, navbar2, navbar3,

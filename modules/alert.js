@@ -16,6 +16,6 @@ const alertMessage = (type, message, time) => {
   setTimeout(() => {
     messageContainer.removeChild(paragraph);
   }, time);
-}
+};
 
 export { messageContainer, alertMessage };
