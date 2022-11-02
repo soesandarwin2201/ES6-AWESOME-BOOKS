@@ -1,5 +1,5 @@
-export default class storeBook {
-  static getBook() {
+export default class StoreBook {
+  static getBook = () => {
     let books;
     if (localStorage.getItem('books') === null) {
       books = [];
@@ -9,14 +9,14 @@ export default class storeBook {
     return books;
   }
 
-  static addBook(book) {
-    const books = storeBook.getBook();
+  static addBook = (book) => {
+    const books = this.getBook();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
 
-  static removeBook(id) {
-    let books = storeBook.getBook();
+  static removeBook = (id) => {
+    let books = this.getBook();
     books = books.filter((book) => book.id !== id);
     localStorage.setItem('books', JSON.stringify(books));
   }

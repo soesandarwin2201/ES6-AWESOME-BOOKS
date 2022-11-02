@@ -1,13 +1,13 @@
 import storeBook from './localStorage.js';
 
 export default class showBook {
-  static displayBooks() {
+  static displayBooks = () => {
     const books = storeBook.getBook();
     books.forEach((book) => showBook.addedBooks(book));
   }
 
   // display booklist
-  static addedBooks(book) {
+  static addedBooks = (book) => {
     const bookListsContainer = document.getElementById('book-list-container');
     const bookLists = document.createElement('tr');
 
@@ -20,7 +20,7 @@ export default class showBook {
     bookListsContainer.appendChild(bookLists);
   }
 
-  static deleteBook(element) {
+  static deleteBook = (element) => {
     if (element.classList.contains('delete')) {
       element.parentElement.parentElement.remove();
     }

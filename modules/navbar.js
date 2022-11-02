@@ -5,19 +5,19 @@ const listLink = document.getElementById('List-link');
 const addFromLink = document.getElementById('add-link');
 const contactLink = document.getElementById('contact-link');
 
-function navbar1() {
+const  navbar1 = () => {
   list.style.display = 'block';
   addForm.style.display = 'none';
   contact.style.display = 'none';
 }
 
-function navbar2() {
+const  navbar2 = () => {
   list.style.display = 'none';
   addForm.style.display = 'block';
   contact.style.display = 'none';
 }
 
-function navbar3() {
+const  navbar3 = () => {
   list.style.display = 'none';
   addForm.style.display = 'none';
   contact.style.display = 'block';

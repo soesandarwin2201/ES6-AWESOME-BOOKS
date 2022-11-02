@@ -37,7 +37,7 @@ form.addEventListener('submit', (e) => {
 
 bookListsContainer.addEventListener('click', (e) => {
   showBook.deleteBook(e.target);
-  storeBook.removeBook(e.target.dataset.id);
+  storeBook.removeBook(parseInt(e.target.dataset.id, 10));
   alertMessage('remove', '<b>Remove:</b> Book Removed successfully', 3000);
 });
 

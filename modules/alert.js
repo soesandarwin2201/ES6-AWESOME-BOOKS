@@ -1,6 +1,6 @@
 const messageContainer = document.getElementById('message-container');
 
-function alertMessage(type, message, time) {
+const alertMessage = (type, message, time) => {
   const paragraph = document.createElement('p');
   paragraph.classList.add('alert');
   paragraph.innerHTML = `${message}`;
