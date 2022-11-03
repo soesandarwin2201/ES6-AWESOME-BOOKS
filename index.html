@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ES6 Awesome books</title>
+ <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+
+ <header>
+ <!--header section-->
+ <div class="logo">
+  <span>Awesome Books</span>
+ </div>
+
+ <ul class="navbar">
+  <li>
+   <a href="#list" id="List-link" class="links active">List</a>
+  </li>
+  <li>
+    <a href="#add_book" id="add-link" class="links">Add New</a>
+   </li>
+   <li>
+    <a href="#contact" id="contact-link" class="links">Contact</a>
+   </li>
+ </ul>
+ <!--end of header section-->
+ <div id="time"></div>
+ </header>
+
+ <main class="wrapper">
+
+  <!--end of booklist-->
+  <section id="list" >
+   <h1>Awesome books</h1>
+   <div>
+  <table>
+   <thead>
+    <tr class="table-row">
+     <th>Title</th>
+     <th>Author</th>
+     <th></th>
+    </tr>
+   </thead>
+   <tbody class="book-list-container" id="book-list-container">
+  </tbody>
+  </table>
+  </div>
+  </section>
+ <!--end of booklist-->
+
+<!--error message-->
+  <section id="message-container"></section>
+ <!--end of error message-->
+
+
+ <!--book form section-->
+  <section class="addbook" id="add_book">
+   <h1 class="title">Add a new book</h1>
+
+   <form action="" method="get" id="form">
+
+    <input type="text" id="title" name="title" placeholder="Title">
+    <br>
+    <input type="text" id="author" name="author" placeholder="Author">
+    <br>
+    <button type="submit" id="add-btn">Add</button>
+   </form>
+  </section>
+  <!--end of book form-->
+
+  <!--contact form-->
+  <section id="contact" class="contact-us">
+   <h2>Contact Information</h2>
+   <p>
+    DO you have any question or you just want to say 'hello'
+    <br>You can Reach out to us!
+   </p>
+
+   <ul>
+    <li>Our E-mail: books@awesome.com</li>
+    <li>OUr Phone Number : 0033113233442</li>
+    <li>Our Address: John Doe Streer , 22 , 98009 vikings</li>
+   </ul>
+  </section>
+
+  <!--footer section-->
+  <footer><p>Copyright : All rights reserved.</p></footer>
+ </main>
+ 
+ <script src="./index.js" type="module"></script>
+</body>
+</html>
