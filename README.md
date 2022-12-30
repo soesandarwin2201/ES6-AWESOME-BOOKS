@@ -1,19 +1,23 @@
-# ES6-AWESOME-BOOKS
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Awesome Books 
 
-
-> This is the Awesome books: using es 6 and modules that shows of my accomplishments as a software developer.
-
+> This is the Awesome books: plain JavaScript with objects that shows of my accomplishments as a software developer.
 
 
 ## Built With
 
 - HTML
-- Css
+- CSS
 - Javascript
+- Webpack
 - Es6
+  
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Click here to see the [Live Demo](https://soesandarwin2201.github.io/es6.books.soesandarwin2201.github.io/) of the website 
+
+![](./images/Es6-books-project.png)
 
 ## Getting Started
 
@@ -26,12 +30,15 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 - Download this repository and open index.html file.
 
-## Authors
-
+ # Author 1
+ 
 👤 **Soe Sandar Win**
 
-- GitHub : [@soesandarwin2201] (https://github.com/soesandarwin2201)
-- LinkedIn : [soesandarwin] (https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
+- GitHub: [@SoeSandarWin](https://github.com/soesandarwin2201)
+- LinkedIn: [@SoeSandarWin](https://www.linkedin.com/in/soe-sandar-win-softwareengineer/)
+
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
